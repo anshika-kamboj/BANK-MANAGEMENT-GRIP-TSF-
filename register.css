@@ -1,0 +1,53 @@
+body{
+  background-color: #d9e01d;
+  background: url(images/bghome.jpg) no-repeat  fixed center;
+  backdrop-filter: blur(8px);
+  background-size: cover;
+  min-width:629px;
+}
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 15px;
+    background-color: #323031;
+    border-radius: 20px;
+    height: 22rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 6px;
+    color:#5fcad6  ;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 3px;
+    color:grey;
+    margin-bottom: 10px;
+    border: 0.2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    margin-top:1rem;
+    background-color: #177e89;
+    color: rgb(255, 248, 248);
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover 
+  {
+    background-color: #ffc757;
+  }
+  
+  input:invalid {
+    border-color: red;
+  }
+  

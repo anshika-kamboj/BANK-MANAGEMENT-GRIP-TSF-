@@ -1,0 +1,22 @@
+body{
+    background: url(images/1bghome.jpg) no-repeat  fixed center;
+    backdrop-filter: blur(8px);
+    background-size:cover; 
+    min-width:625px;
+}
+.welcome h1
+{
+    margin:2rem;
+    margin-top:4rem;
+    justify-content:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(254, 140, 1)  ;
+    text-shadow:0px 0px 15px  #000000;
+}
+.welcome p
+{
+    overflow:auto;
+    color:bisque  ;
+    text-shadow:0px 0px 5px  #000000fe;
+    min-width: 25rem;
+}
