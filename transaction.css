@@ -1,8 +1,13 @@
+* { /*browser size adjusting*/
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body{
     background-color: #d09292;
     background: url(images/bghome.jpg) no-repeat  fixed center;
     backdrop-filter: blur(8px);
-    background-size: cover;
+    background-size:cover; 
     min-width:629px;
 }
 form {
@@ -11,12 +16,12 @@ form {
     padding: 20px;
     background-color: #323031;
     border-radius: 20px;
-    height: 21rem;
+    height: 24rem;
   }
   
   label {
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     color:#5fcad6  ;
   }
  
@@ -26,15 +31,15 @@ form {
   {
     width: 100%;
     padding: 8px;
-    margin-top:1rem;
-    margin-bottom: 12px;
+    margin-top:0.7rem;
+    margin-bottom: 8px;
     border: 1px solid #cccccc;
     border-radius: 4px;
-    color:grey;
+    color:rgb(10, 10, 10);
   }
   
   input[type="submit"] {
-    margin-top:2rem;
+    margin-top:0.7rem;
     background-color: #177e89;
     color: white;
     padding: 10px 16px;
@@ -45,7 +50,7 @@ form {
   
   input[type="submit"]:hover 
   {
-    margin-top:2rem;
+    margin-top:0.3rem;
     background-color: #ffc757;
   }
   

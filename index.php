@@ -22,7 +22,7 @@
         <a href="transaction.php">TRANSACTION</a>
        <a href="customer.php">CUSTOMERS</a>
     </div><!--navbar-->
-    <div class="container" style="margin-top:5px">
+    <div class="container">
         <div class="welcome" style="height:21rem">
           <h1>TSF BANK WELCOMES YOU</h1>
           <h3>YOUR BRIDGE  TO FINANCIAL PROSPERITY</h3>

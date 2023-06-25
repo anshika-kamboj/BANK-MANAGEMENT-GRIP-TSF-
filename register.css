@@ -1,8 +1,13 @@
+* { /*browser size adjusting*/
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body{
   background-color: #d9e01d;
   background: url(images/bghome.jpg) no-repeat  fixed center;
-  backdrop-filter: blur(8px);
-  background-size: cover;
+  backdrop-filter: blur(5px);
+  background-size:cover; 
   min-width:629px;
 }
 form {
@@ -11,7 +16,7 @@ form {
     padding: 15px;
     background-color: #323031;
     border-radius: 20px;
-    height: 22rem;
+    height: 19rem;
   }
   
   label {
@@ -23,10 +28,10 @@ form {
   input[type="text"],
   input[type="email"],
   input[type="password"],
-  input[type="tel"] {
+  input[type="number"] {
     width: 100%;
     padding: 3px;
-    color:grey;
+    color:rgb(18, 18, 18);
     margin-bottom: 10px;
     border: 0.2px solid #ccc;
     border-radius: 4px;

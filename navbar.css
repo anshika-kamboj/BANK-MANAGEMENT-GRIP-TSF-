@@ -3,8 +3,6 @@
     background-color: #177e89 ;
     overflow:auto;
    display: flex;
-   padding-bottom: 2px;
-
 }
 .navbar a {
     align-self: flex-end;
